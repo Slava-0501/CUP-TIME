@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Cup Time - время кофе и чая</title>
 </head>
 
 <body>
 
     <header class="header">
-        <div class="container">
+        <div class="container header__container">
             <a class="header__logo-link">
                 <img src="image/logo.svg" alt="Логотип" class="header__logo">
             </a>
@@ -58,45 +60,67 @@
                         <article class="product">
                             <img src="image/teaProduct/photo-2.jpg" alt="Кокосовая матча" 
                             class="product__image">
-                            <h3 class="product__title">Кокосовая матча</h3>
-                            <p class="product__price">390 ₽</p>
-                        </article>
-                        
-                        <article class="product">
-                            <img src="image/teaProduct/photo-1.jpg" alt="Зеленый индонезийский чай" 
-                            class="product__image">
-                            <h3 class="product__title">Зеленый индонезийский чай</h3>
-                            <p class="product__price">340 ₽</p>
-                        </article>
-
-                        <article class="product">
-                            <img src="image/teaProduct/photo.jpg" alt="Черный чай из Эфиопии" 
-                            class="product__image">
-                            <h3 class="product__title">Черный чай из Эфиопии</h3>
-                            <p class="product__price">380 ₽</p>
-                        </article>
-
-                        <article class="product">
-                            <img src="image/teaProduct/photo-5.jpg" alt="Черный чай из Калифорнии" 
-                            class="product__image">
-                            <h3 class="product__title">Черный чай из Калифорнии</h3>
-                            <p class="product__price">360 ₽</p>
-                        </article>
-
-                        <article class="product">
-                            <img src="image/teaProduct/photo-4.jpg" alt="Органическая веганская матча" 
-                            class="product__image">
-                            <h3 class="product__title">Органическая веганская матча</h3>
-                            <p class="product__price">400 ₽</p>
-                        </article>
-
-                        <article class="product">
-                            <img src="image/teaProduct/photo-3.jpg" alt="Чай черный Лакандона" 
-                            class="product__image">
-                            <h3 class="product__title">Чай черный Лакандона</h3>
-                            <p class="product__price">390 ₽</p>
+                            <div class="product__content">
+                                <h3 class="product__title">Кокосовая матча</h3>
+                                <p class="product__price">390 ₽</p>
+                            </div>
                         </article>
                     </li>
+                        
+                        <li class="products__item">
+                            <article class="product">
+                                <img src="image/teaProduct/photo-1.jpg" alt="Зеленый индонезийский чай" 
+                                class="product__image">
+                                <div class="product__content">
+                                    <h3 class="product__title">Зеленый индонезийский чай</h3>
+                                    <p class="product__price">340 ₽</p>
+                                </div>
+                            </article>
+                        </li>
+
+                        <li class="products__item">
+                            <article class="product">
+                                <img src="image/teaProduct/photo.jpg" alt="Черный чай из Эфиопии" 
+                                class="product__image">
+                                <div class="product__content">
+                                    <h3 class="product__title">Черный чай из Эфиопии</h3>
+                                    <p class="product__price">380 ₽</p>
+                                </div>
+                                </article>
+                        </li>
+
+                        <li class="products__item">
+                            <article class="product">
+                                <img src="image/teaProduct/photo-5.jpg" alt="Черный чай из Калифорнии" 
+                                class="product__image">
+                                <div class="product__content">
+                                    <h3 class="product__title">Черный чай из Калифорнии</h3>
+                                    <p class="product__price">360 ₽</p>
+                                </div>
+                            </article>
+                        </li>
+
+                        <li class="products__item">
+                            <article class="product">
+                                <img src="image/teaProduct/photo-4.jpg" alt="Органическая веганская матча" 
+                                class="product__image">
+                                <div class="product__content">
+                                    <h3 class="product__title">Органическая веганская матча</h3>
+                                    <p class="product__price">400 ₽</p>
+                                </div>
+                            </article>
+                        </li>
+
+                        <li class="products__item">
+                            <article class="product">
+                                <img src="image/teaProduct/photo-3.jpg" alt="Чай черный Лакандона" 
+                                class="product__image">
+                                <div class="product__content">
+                                    <h3 class="product__title">Чай черный Лакандона</h3>
+                                    <p class="product__price">390 ₽</p>
+                                </div>
+                            </article>
+                        </li>
                 </ul>
             </div>
         </section>
